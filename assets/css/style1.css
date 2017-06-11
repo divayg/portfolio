@@ -1,0 +1,109 @@
+
+body{
+    background: #212121;
+}
+ul li.active{
+  border-bottom:2px solid #af601a !important;
+}
+ul li:hover{
+  border-bottom: 2px solid #d35400;
+}
+.sec-1{
+    min-height:80vh;
+}
+.check{
+    border:1px solid #fefefe;
+}
+.heading h3{
+    color:#df9d00;
+}
+.heading{
+    margin-left:15px;
+    padding:10px;
+}
+
+.description{
+    font-size:20px;
+}
+.skills{
+    background: #e2e2e2;
+    border-radius: 100%;
+    transition: background 1s linear;
+    margin: 5px;
+}
+
+.mcss{
+    width:128px;
+}
+/*.skills:hover{
+    background:linear-gradient(#e2e2e2 25%, #234adf 75%);
+}
+.html5:hover{
+    background:linear-gradient(#e2e2e2 5%, #234adf,#234abf);
+    opacity:1;
+}
+
+.js:hover{
+    background:linear-gradient(#e2e2e2 50%, #234adf,#234abf);
+}
+
+.describe{
+  transition:background-color 0.5s ease-in-out;
+}
+.describe > h5{
+  font-size:5vh;
+  text-align:center;
+  margin:25% auto;
+  font-family:"Oswald",sans serif;
+  color:#af601a;
+  opacity:0;
+  transition:opacity 1s ease-in-out;
+}
+.hover{
+    background-color: rgba(0,0,0,0.7);
+}
+.hover h5{
+  opacity:1;
+}*/
+
+
+.sec-3{
+    padding:15px;
+}
+.sec-3 .card{
+    margin:10px;
+}
+
+.card-content {
+    background: #323232;
+}
+
+.card-content > .card-title{
+    color:#fff;
+    text-align: center;
+}
+
+.card-content > .card-title ,.card-reveal > .card-title{
+    font-weight:bold;
+}
+
+.sec-2{
+ transform: skewY(2deg);
+}
+.sec-2 .container{
+    transform: skewY(-2deg);
+}
+
+.sec-4 .card,.sec-4 .header{
+    padding:20px;
+    transform: skewY(2deg);
+}
+
+.sec-4{
+    transform: skewY(-2deg);
+}
+@media screen and (max-width:768px){
+    .valign-wrapper{
+        display: block;
+    }
+}
