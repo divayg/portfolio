@@ -5,7 +5,7 @@ body{
 ul li.active{
   border-bottom:2px solid #af601a !important;
 }
-ul li:hover{
+.nav-wrapper ul li:hover{
   border-bottom: 2px solid #d35400;
 }
 .sec-1{
@@ -105,7 +105,9 @@ ul li:hover{
 .sec-2 .container{
     transform: skewY(-2deg);
 }
-
+.sec-3 .header{
+    color:#d35400;
+}
 .sec-4 .card,.sec-4 .header{
     padding:20px;
     transform: skewY(2deg);
