@@ -2,11 +2,19 @@ $(document).ready(function(){
     
     $(".button-collapse").sideNav({
       menuWidth: 300, 
-      edge: 'right'
+      edge: 'right',
+      closeOnClick: true, 
+      draggable: true
     });
      
     $(".card").addClass("hoverable");
 
+$(window).resize(function () {
+    var viewportWidth = $(window).width();
+    if (viewportWidth <= 790) {
+            $(".fixed-action-btn").addClass("horizontal click-to-toggle");
+    }
+});
   
   
 setTimeout(setInterval(displayText,150),2000);

@@ -35,9 +35,11 @@ ul li:hover{
 .mcss{
     width:128px;
 }
-/*.skills:hover{
+
+.skills:hover{
     background:linear-gradient(#e2e2e2 25%, #234adf 75%);
 }
+/*
 .html5:hover{
     background:linear-gradient(#e2e2e2 5%, #234adf,#234abf);
     opacity:1;
@@ -111,7 +113,11 @@ ul li:hover{
 
 .sec-4{
     transform: skewY(-2deg);
-}
+    }
+
+.fixed-action-btn{
+    bottom:2px;
+    }
 .fa-ellipsis-v{
     color:#fff;
     float: right;
