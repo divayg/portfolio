@@ -76,11 +76,21 @@ ul li:hover{
 
 .card-content {
     background: #323232;
+    text-align:center;
 }
 
 .card-content > .card-title{
     color:#fff;
-    text-align: center;
+    
+} 
+.card-reveal p > a{
+    color:#fd2112;
+    padding:5px 10px;
+    border-radius: 5px;
+    border: 2px solid #e9e9e9;
+}
+.card-reveal .link{
+    text-align: right;
 }
 
 .card-content > .card-title ,.card-reveal > .card-title{
@@ -101,6 +111,10 @@ ul li:hover{
 
 .sec-4{
     transform: skewY(-2deg);
+}
+.fa-ellipsis-v{
+    color:#fff;
+    float: right;
 }
 @media screen and (max-width:768px){
     .valign-wrapper{
