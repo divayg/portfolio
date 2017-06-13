@@ -11,6 +11,13 @@ ul li.active{
 .sec-1{
     min-height:80vh;
 }
+.sec-1 .header{
+    letter-spacing:10px;
+  transition:letter-spacing 1s ease-out;
+}
+.sec-1 .heading  .fa{
+    color:#238adf;
+}
 .check{
     border:1px solid #fefefe;
 }
@@ -32,6 +39,10 @@ ul li.active{
     margin: 5px;
 }
 
+.skills-text{
+    font-family: Courier New, Courier, monospace;
+    font-size:28px;
+}
 .mcss{
     width:128px;
 }
@@ -124,6 +135,9 @@ ul li.active{
     color:#fff;
     float: right;
 }
+
+
+
 @media screen and (max-width:768px){
     .valign-wrapper{
         display: block;

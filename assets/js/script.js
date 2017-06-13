@@ -15,7 +15,8 @@ $(window).resize(function () {
             $(".fixed-action-btn").addClass("horizontal click-to-toggle");
     }
 });
-  
+
+$(".sec-1 .container .header").css("letter-spacing","-3px");
   
 setTimeout(setInterval(displayText,150),2000);
 
@@ -25,7 +26,7 @@ setTimeout(setInterval(displayText,150),2000);
 });
 
 
-var str=[" Divay Garg . "," a Front End Web Developer ."," a web enthusiast !"];
+var str=[" Divay Garg "," a Front End Web Developer"," a web enthusiast !"];
 var pos=0,a=0;
 var html="";
   function displayText(){
