@@ -14,9 +14,9 @@ ul li.active{
 }
 .sec-1 .header{
     letter-spacing:10px;
-  transition:letter-spacing 1s ease-out;
+    transition:letter-spacing 1s ease-out;
 }
-.sec-1 .heading  .fa{
+.sec-1 .heading .fa{
     color:#238adf;
 }
 .check{
