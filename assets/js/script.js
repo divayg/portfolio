@@ -14,6 +14,10 @@ $(window).resize(function () {
     if (viewportWidth <= 790) {
             $(".fixed-action-btn").addClass("horizontal click-to-toggle");
     }
+    if(viewportWidth<760){
+      $(".sec-3").css("padding","2px");
+      $(".sec-3 .card").css("margin","10px 2px")
+    }
 });
 
 $(".sec-1 .container .header").css("letter-spacing","-3px");
