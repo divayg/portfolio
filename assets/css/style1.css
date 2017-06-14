@@ -19,6 +19,7 @@ ul li.active{
 .sec-1 .heading .fa{
     color:#238adf;
 }
+
 .check{
     border:1px solid #fefefe;
 }
@@ -142,5 +143,16 @@ ul li.active{
 @media screen and (max-width:768px){
     .valign-wrapper{
         display: block;
+    }
+    .sec-1 img {
+        width:65%;
+    }
+    .sec-1{
+        height:90vh;
+    }
+    .down{
+        position: absolute;
+        bottom:2px;
+        left : 50%;
     }
 }
