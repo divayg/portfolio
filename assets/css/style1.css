@@ -140,7 +140,7 @@ ul li.active{
 
 
 
-@media screen and (max-width:768px){
+@media screen and (max-width:760px){
     .valign-wrapper{
         display: block;
     }
@@ -148,11 +148,10 @@ ul li.active{
         width:65%;
     }
     .sec-1{
-        height:90vh;
+        height:100vh;
     }
+    
     .down{
-        position: absolute;
-        bottom:0px;
-        left: 50%;
+        display: none;
     }
 }
